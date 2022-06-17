@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+:root{
+	--bg-negro:#000;
+}
+body{
+	font-size: 14px;
+}
+header{
+	background-color: transparent;
+	position: absolute;
+	width: 100%;
+	padding: 20px 0;
+}
+
+#hero{
+	background-image: url("../img/home-header-bg.jpg");
+	background-size: cover;
+	background-position: top center;
+	min-height: 400px;
+	color: #fff;
+	padding-bottom: 530px;
+}
+#hero h2{
+	padding-top: 300px;
+	margin-right: 700px;
+	font-size: 60px;
+}
+#hero p{
+	font-size: 20px;
+}
+.btn-orange{
+	background-color: #EBA659;
+	color: #fff;
+	padding: 20px 40px;
+}
+.btn-light{
+	padding: 20px 40px;
+}
+#coaches{
+	text-align: center;
+	padding: 160px 0;
+}
+#coaches h2{
+	font-size: 60px;
+	margin-bottom: 60px;
+}
+#coaches h4{
+	font-size: 30px;
+}
+#coaches p{
+	color:darkgrey;
+	font-size: 16px;
+}
+#info{
+	padding: 60px 0;
+}
+footer{
+	background-color: #000;
+	padding: 20px 0;
+	color: #aaa;
+	text-align: center;
+}
+footer h3{
+	color: #fff;
+	font-size: 24px;
+	font-weight: 600;
+}
+footer h3 span{
+	color: #fca756;
+}
